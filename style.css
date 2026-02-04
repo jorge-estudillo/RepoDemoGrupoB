@@ -1,0 +1,75 @@
+body {
+    margin: 50px;
+    background: linear-gradient(90deg, rgba(200, 224, 249, 1) 0%, rgba(24, 31, 247, 1) 100%);
+}
+
+h1 {
+    width: 300px;
+    text-align: center;
+    font-family: console, sans-serif;
+    color: purple;
+    font-size:70px;
+    transform: rotate(5deg);
+    text-shadow: 5px 5px 10px #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro {
+    background: black;
+    color:white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.menu {
+    padding: 50px;
+    background: lime;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: purple;
+    font-size: 50px;
+    block-size: 100px;
+}
+
+.nav {
+    font-size: 30px;
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    color:white;
+    background-color: #13a4a4;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a:link {
+    background-color: blue;
+    color:white;
+    text-decoration: none;
+    padding: 2px;
+}
+
+a:visited {
+  background-color: purple;  
+}
+
+a:hover {
+    background-color: transparent;
+    color:blue;
+    text-decoration: underline;
+}
+
+a:active {
+    color:red;
+}
+
